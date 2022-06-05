@@ -31,13 +31,13 @@ variable "enabled" {
 }
 
 variable "template_custom_vars" {
-  type    = "map"
+  type    = string #"map"
   default = {}
   description = "-(Optional) Local chart replace variables from values.yaml"
 }
 
 variable "env_vars" {
-  type    = "map"
+  type    = string  #"map"
   default = {}
 }
 
