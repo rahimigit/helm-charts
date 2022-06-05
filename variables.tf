@@ -32,13 +32,13 @@ variable "enabled" {
 
 variable "template_custom_vars" {
   type    = string #"map"
-  default = {}
+  # default = {}
   description = "-(Optional) Local chart replace variables from values.yaml"
 }
 
 variable "env_vars" {
   type    = string  #"map"
-  default = {}
+  # default = {}
 }
 
 variable "trigger" {
